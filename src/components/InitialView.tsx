@@ -34,16 +34,16 @@ export const Main: React.FC = () =>{
 
     return(
 
-       <div >
-            <div >
-                <h1 >INGRESO AL CATALOGO</h1>
-                <a href="">IR</a>
-                <p>
+       
+        <div className="jumbotron text-center" >
+            <h1 className="display-3">INGRESO AL CATALOGO</h1>
+            <a href="" className="btn btn-success">IR</a>
+            <p>
                 <blockquote>
-                    Un catalogo de productos donde se implementara una api y react/bootstrap para hacer las vistas
+                Un catalogo de productos donde se implementara una api y react/bootstrap para hacer las vistas
                 </blockquote>
-                </p>
-            </div>
+            </p>
         </div>
+       
     )
 }
